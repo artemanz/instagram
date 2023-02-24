@@ -9,7 +9,7 @@ export default defineConfig({
   root: resolve("src"),
   publicDir: resolve("public"),
   build: {
-    outDir: resolve("build"),
+    outDir: resolve("dist"),
     emptyOutDir: true,
   },
   server: {
