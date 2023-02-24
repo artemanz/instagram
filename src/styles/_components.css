@@ -1,0 +1,17 @@
+@layer components {
+  .AppInput {
+    @apply text-sm text-gray-500 px-4 py-5 h-2 border rounded-md;
+  }
+
+  .AppButton {
+    @apply bg-red-500 text-white rounded-md cursor-pointer disabled:bg-gray-400 disabled:cursor-not-allowed;
+  }
+
+  .AppThinButton {
+    @apply font-bold text-sm text-accent-1 enabled:hover:underline enabled:focus:underline disabled:text-gray-400;
+  }
+
+  .UIButton {
+    @apply border border-black px-6 py-2 rounded-full font-bold focus:bg-accent-1 focus:border-accent-1 focus:text-white hover:bg-accent-1 hover:border-accent-1 hover:text-white;
+  }
+}

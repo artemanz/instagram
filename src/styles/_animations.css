@@ -1,0 +1,42 @@
+@layer animations {
+  .animation-ping {
+    animation: ping;
+    animation-duration: 300ms;
+  }
+
+  .animate-heart-ping {
+    animation: animate-heart-pulse;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+
+  .animate-popup {
+    animation: popup 300ms forwards;
+  }
+
+  @keyframes ping {
+    50% {
+      scale: 1.5;
+    }
+
+    100% {
+      scale: 1;
+    }
+  }
+
+  @keyframes animate-heart-pulse {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes popup {
+    0% {
+      translate: 0 100px;
+    }
+
+    100% {
+      translate: 0 0;
+    }
+  }
+}

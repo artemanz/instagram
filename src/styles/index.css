@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import "react-loading-skeleton/dist/skeleton.css";
+@import "reactjs-popup/dist/index.css";
+
+@import "./_base.css";
+@import "./_components.css";
+@import "./_utilities.css";
+@import "./_animations.css";
+@import "./_custom.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,17 @@
+@layer utilities {
+  .container {
+    @apply mx-auto px-2 max-w-screen-xl;
+  }
+
+  .min-h-screen {
+    min-height: 100dvh;
+  }
+
+  .flex-center {
+    @apply justify-center items-center;
+  }
+
+  .absolute-center {
+    @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+}

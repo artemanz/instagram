@@ -1,0 +1,3 @@
+.popup-content {
+  @apply bg-transparent border-none flex justify-center items-center w-auto;
+}
