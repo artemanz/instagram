@@ -68,6 +68,7 @@ const CreatePostPopup: FC<Props> = ({ open, setOpen }) => {
     setLoading(true);
     await addNewPostToFirebase(formData as any);
     setLoading(false);
+    setOpen(false);
   }
 
   const ImageInput = () => (
